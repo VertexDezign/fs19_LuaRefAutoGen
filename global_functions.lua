@@ -1121,7 +1121,8 @@ function simulateParticleSystems() end
 function simulatePhysics() end
 function simulatePhysicsTimeScale() end
 function smoothDensityMapHeightAtWorldPos() end
-function source() end
+---@param filename string
+function source(filename) end
 function splitShape() end
 function startDevClient() end
 function startDevServer() end

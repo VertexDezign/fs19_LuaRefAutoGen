@@ -7,7 +7,10 @@ function Utils.evaluateFormula() end
 function Utils.formatTime() end
 function Utils.get2DArray() end
 function Utils.getCoinToss() end
-function Utils.getFilename() end
+---@param name string
+---@param directory string
+---@return string
+function Utils.getFilename(name, directory) end
 function Utils.getFilenameInfo() end
 function Utils.getIntersectionOfLinearMovementAndTerrain() end
 function Utils.getMasterVolumeFromIndex() end

@@ -1,3 +1,6 @@
+g_currentModName = ""
+g_currentModDirectory = ""
+
 GS_INPUT_HELP_MODE_AUTO = 1
 GS_INPUT_HELP_MODE_GAMEPAD = 3
 GS_INPUT_HELP_MODE_KEYBOARD = 2
