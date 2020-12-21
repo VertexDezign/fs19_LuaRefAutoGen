@@ -1,7 +1,10 @@
 ---@class Utils
 Utils = {} -- empty
 
-function Utils.appendedFunction() end
+---@param origFuction function
+---@param functionToAppend function
+---@return function
+function Utils.appendedFunction(origFuction, functionToAppend) end
 function Utils.clearBit() end
 function Utils.evaluateFormula() end
 function Utils.formatTime() end

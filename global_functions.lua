@@ -137,7 +137,11 @@ function createTyreTrackSystem() end
 function createVideoOverlay() end
 function createWebImageOverlay() end
 function createWheelShape() end
-function createXMLFile() end
+---@param objectName string
+---@param filename string
+---@param rootNodeName string
+---@return integer @xmlId
+function createXMLFile(objectName, filename, rootNodeName) end
 function cutTrack() end
 function delete() end
 function deleteFile() end
@@ -371,7 +375,7 @@ function getMotorTorque() end
 function getMouseButtonName() end
 function getMultiplayerAvailability() end
 function getNATType() end
-function getName() end
+function getName(id) end
 function getNavMeshDistanceToWall() end
 function getNavPathDirection() end
 function getNavPathHasValidSlope() end

@@ -1,4 +1,6 @@
 ---@class MissionInfo
+---@field isValid boolean
+---@field savegameDirectory string
 MissionInfo = {} -- empty
 
 function MissionInfo.class() end
