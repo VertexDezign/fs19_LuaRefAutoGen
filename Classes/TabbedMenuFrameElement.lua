@@ -1,4 +1,4 @@
----@class TabbedMenuFrameElement
+---@class TabbedMenuFrameElement : FrameElement
 TabbedMenuFrameElement = {} -- empty
 
 function TabbedMenuFrameElement.class() end

@@ -1,4 +1,4 @@
----@class TabbedMenu
+---@class TabbedMenu : ScreenElement
 TabbedMenu = {
     CONTROLS = {
         BUTTONS_PANEL = 'buttonsPanel',
@@ -40,7 +40,12 @@ function TabbedMenu.getPageButtonInfo() end
 function TabbedMenu.goToPage() end
 function TabbedMenu.isa() end
 function TabbedMenu.makeSelfCallback() end
-function TabbedMenu.new() end
+---@param target any @unknown can be nil
+---@param customMt table
+---@param messageCenter MessageCenter
+---@param i18n I18N
+---@param inputManager InputBinding @g_gui.inputManager
+function TabbedMenu.new(target, customMt, messageCenter, i18n, inputManager) end
 function TabbedMenu.onButtonBack() end
 function TabbedMenu.onClickActivate() end
 function TabbedMenu.onClickBack() end

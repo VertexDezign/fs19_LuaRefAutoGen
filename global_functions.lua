@@ -1,4 +1,6 @@
-function Class() end
+---@param table table @this class table
+---@param parent table @the parent class
+function Class(table, parent) end
 function InitClientOnce() end
 function InitEventClass() end
 function InitObjectClass() end

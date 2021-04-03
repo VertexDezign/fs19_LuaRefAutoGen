@@ -52,12 +52,17 @@ function g_gui.hasElementInputFocus() end
 function g_gui.isa() end
 function g_gui.keyEvent() end
 function g_gui.leaveMenuContext() end
-function g_gui.loadGui() end
+---@param xmlFilename string @definition XML file path, relative to application root.
+---@param name string @name of the screen
+---@param controller FrameElement @instance which serves as the controller for loaded elements
+---@param isFrame boolean @default=false. If true, will interpret the loaded view as a frame to be used in multiple places.
+function g_gui.loadGui(xmlFilename, name, controller, isFrame) end
 function g_gui.loadGuiRec() end
 function g_gui.loadMapData() end
 function g_gui.loadPresets() end
 function g_gui.loadProfileSet() end
-function g_gui.loadProfiles() end
+---@param fileName string @profiles definition XML file path, relative to application root.
+function g_gui.loadProfiles(fileName) end
 function g_gui.loadTraits() end
 function g_gui.makeChangeScreenClosure() end
 function g_gui.makePlaySampleClosure() end

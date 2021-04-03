@@ -1,4 +1,4 @@
----@class ScreenElement
+---@class ScreenElement : FrameElement
 ScreenElement = {
     CONTROLS = {
         PAGE_SELECTOR = 'pageSelector',

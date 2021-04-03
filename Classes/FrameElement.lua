@@ -1,4 +1,4 @@
----@class FrameElement
+---@class FrameElement : GuiElement
 FrameElement = {} -- empty
 
 function FrameElement.changeScreen() end
@@ -13,7 +13,8 @@ function FrameElement.isInputDisabled() end
 function FrameElement.isa() end
 function FrameElement.new() end
 function FrameElement.playSample() end
-function FrameElement.registerControls() end
+---@param controlIDs table @which holds control IDs as values, as they are required to be present in the view configuration
+function FrameElement.registerControls(controlIDs) end
 function FrameElement.setChangeScreenCallback() end
 function FrameElement.setInputContextCallback() end
 function FrameElement.setPlaySampleCallback() end
